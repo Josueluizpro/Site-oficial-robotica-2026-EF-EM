@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Escola Estadual Cívico Militar – Prof. Ovídio Pires de Campos</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+*{box-sizing:border-box;}
+
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f2f4f7;
+}
+
+/* ===== TOPO ===== */
+header{
+    background:linear-gradient(90deg,#0b2545,#1f3d2b);
+    color:#fff;
+    text-align:center;
+    padding:30px 15px;
+}
+
+header img{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    border:4px solid #c9a227;
+    object-fit:cover;
+}
+
+header h1{margin:15px 0 5px;}
+header h2{margin:0;color:#c9a227;font-weight:normal;}
+header p{margin-top:15px;font-style:italic;}
+
+/* ===== CONTEÚDO ===== */
+main{
+    max-width:1200px;
+    margin:40px auto;
+    padding:0 15px;
+}
+
+.cards{
+    display:flex;
+    flex-wrap:wrap;
+    gap:25px;
+}
+
+.card{
+    width:calc(25% - 19px);
+    background:#fff;
+    border-radius:14px;
+    box-shadow:0 6px 12px rgba(0,0,0,.12);
+    padding:18px;
+    text-align:center;
+    transition:.3s;
+}
+
+.card:hover{transform:translateY(-6px);}
+
+.card img{
+    width:100%;
+    height:160px;
+    object-fit:cover;
+    border-radius:10px;
+    border:2px solid #c9a227;
+    margin-bottom:15px;
+}
+
+.card h3{color:#0b2545;}
+.card p{font-size:14px;color:#555;}
+
+.card a{
+    display:inline-block;
+    margin-top:15px;
+    padding:10px 22px;
+    background:#1f3d2b;
+    color:#fff;
+    text-decoration:none;
+    border-radius:8px;
+}
+
+/* ===== RESPONSIVO ===== */
+@media(max-width:1000px){
+    .card{width:calc(50% - 13px);}
+}
+@media(max-width:600px){
+    .card{width:100%;}
+}
+
+/* ===== RODAPÉ ===== */
+footer{
+    background:#0b2545;
+    color:#fff;
+    text-align:center;
+    padding:30px 20px;
+}
+
+footer img{
+    width:80px;
+    height:80px;
+    border-radius:50%;
+    border:3px solid #c9a227;
+    object-fit:cover;
+}
+
+footer p{margin:6px 0;font-size:14px;}
+
+footer a{
+    color:#c9a227;
+    text-decoration:none;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<img src="perfil.jpg">
+<h1>Escola Estadual Cívico Militar</h1>
+<h2>Professor Ovídio Pires de Campos</h2>
+<p>Disciplina, tecnologia e inovação formando cidadãos para o futuro.</p>
+<p><strong>Professor Josue Luiz</strong></p>
+</header>
+
+<main>
+<div class="cards">
+
+<div class="card">
+<img src="fundamental.jpg">
+<h3>Robótica – Fundamental</h3>
+<p>Projetos introdutórios de robótica educacional.</p>
+<a href="#">Acessar</a>
+</div>
+
+<div class="card">
+<img src="medio.jpg">
+<h3>Robótica – Ensino Médio</h3>
+<p>Projetos com micro:bit e Arduino.</p>
+<a href="#">Acessar</a>
+</div>
+
+<div class="card">
+<img src="radio.jpg">
+<h3>Carrinho via Rádio</h3>
+<p>Projeto com micro:bit e Robotbit.</p>
+<a href="#">Acessar</a>
+</div>
+
+<div class="card">
+<img src="arduino.jpg">
+<h3>Arduino</h3>
+<p>Automação e sensores.</p>
+<a href="#">Acessar</a>
+</div>
+
+<div class="card">
+<img src="matematica.jpg">
+<h3>Matemática Aplicada</h3>
+<p>Matemática integrada à robótica.</p>
+<a href="#">Acessar</a>
+</div>
+
+<div class="card">
+<img src="steam.jpg">
+<h3>Projetos STEAM</h3>
+<p>Integração ciência e tecnologia.</p>
+<a href="#">Acessar</a>
+</div>
+
+<div class="card">
+<img src="destaques.jpg">
+<h3>Destaques do Ano</h3>
+<p>Melhores projetos desenvolvidos.</p>
+<a href="#">Acessar</a>
+</div>
+
+<div class="card">
+<img src="portal.jpg">
+<h3>Portal de Projetos</h3>
+<p>Repositório geral.</p>
+<a href="https://josueluizpro.github.io/portal-de-projetos-html/">Acessar</a>
+</div>
+
+</div>
+</main>
+
+<footer>
+<img src="perfil.jpg">
+<p><strong>Professor Josue Luiz</strong></p>
+<p>Diretoria de Ensino – Santo André</p>
+<p>Email: exemplo@email.com | Tel: (00) 00000-0000</p>
+<a href="#">Voltar ao topo</a>
+</footer>
+
+</body>
+</html>
